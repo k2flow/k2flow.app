@@ -28,6 +28,8 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/master'
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GH_PAGE_ACTION_TOKEN }}
+          EXTERNAL_REPOSITORY:  k2flow/k2flow.app.github.io
           PUBLISH_BRANCH: master
           publish_dir: ./public
+          commit_message: ${{ github.event.head_commit.message }}
