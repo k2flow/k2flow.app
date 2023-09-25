@@ -223,3 +223,10 @@ url  = "invest/"
 name = "个人项目"
 weight = 5
 url = "projects/"
+
+[params.utterances]         # utteranc is a comment system based on GitHub issues. see https://utteranc.es
+    disableComments = true
+    repo = "k2flow/comment.k2flow.app"    # The repo to store comments
+    issueTerm = "title"
+    theme="github-light"
+    crossorigin="anonymous"
