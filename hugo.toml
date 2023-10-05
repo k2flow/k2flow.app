@@ -224,9 +224,20 @@ name = "个人项目"
 weight = 5
 url = "projects/"
 
-[params.utterances]         # utteranc is a comment system based on GitHub issues. see https://utteranc.es
-    disableComments = true
-    repo = "k2flow/comment.k2flow.app"    # The repo to store comments
-    issueTerm = "title"
-    theme="github-light"
-    crossorigin="anonymous"
+#### Giscus
+[params.giscus] # https://giscus.app
+  repo = "k2flow/k2flow.app"
+  repoID = "R_kgDOKXj2lQ" 
+  category = "Announcements"
+  categoryID = "DIC_kwDOKZEnb84CZqr8"
+  mapping = "title"
+  term = ""
+  strict = "0"
+  reactionsEnabled = "1"
+  emitMetadata = "0"
+  inputPosition = "bottom"
+  theme = "preferred_color_scheme"
+  lang = "zh-CN"
+  loading = "anonymous"
+
+## Theme Parameters
