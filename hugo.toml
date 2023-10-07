@@ -51,12 +51,6 @@ customRemoteJS = []
 # siteID = "ABCDE"
 # serverURL = "analytics.example.com" # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
 
-# AMP
-amp = true
-ampElements = ["amp-ad"]
-themeColor = "#000000"
-adsensePublisher = "ca-pub-9639458262993363"
-
 
 # If you want to use plausible(https://plausible.io) for analytics, add this section
 # [params.plausibleAnalytics]
