@@ -51,6 +51,13 @@ customRemoteJS = []
 # siteID = "ABCDE"
 # serverURL = "analytics.example.com" # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
 
+# AMP
+amp = true
+ampElements = ["amp-ad"]
+themeColor = "#000000"
+adsensePublisher = "ca-pub-9639458262993363"
+
+
 # If you want to use plausible(https://plausible.io) for analytics, add this section
 # [params.plausibleAnalytics]
 # domain = "example.com"
@@ -226,10 +233,11 @@ url = "projects/"
 
 #### Giscus
 [params.giscus] # https://giscus.app
+  disableComments = true
   repo = "k2flow/k2flow.app"
   repoID = "R_kgDOKXj2lQ" 
   category = "Announcements"
-  categoryID = "DIC_kwDOKZEnb84CZqr8"
+  categoryID = "DIC_kwDOKXj2lc4CZ4Mp"
   mapping = "title"
   term = ""
   strict = "0"
